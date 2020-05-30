@@ -12,7 +12,6 @@ script:
   - npm run build
 deploy:
   provider: firebase
-  skip_cleanup: true
   token: $FIREBASE_TOKEN
   on:
     tags: false
